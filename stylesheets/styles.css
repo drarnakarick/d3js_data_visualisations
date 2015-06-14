@@ -30,6 +30,14 @@ h2 {
   font-size:20px;
 }
 
+h2a {
+  color:#009a9a;
+  font-size:20px;
+  font-weight:400;
+  text-decoration:none;
+}
+
+
 h3, h4, h5, h6 {
   color:#494949;
 
