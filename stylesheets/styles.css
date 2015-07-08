@@ -37,6 +37,13 @@ h2a {
   text-decoration:none;
 }
 
+h3a {
+  color:#009a9a;
+  font-size:18px;
+  font-weight:400;
+  text-decoration:none;
+}
+
 
 h3, h4, h5, h6 {
   color:#494949;
