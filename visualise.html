@@ -62,7 +62,7 @@ files for the
     var svg = dimple.newSvg("#chartContainer", 500, 500);
     d3.csv("content/d3js_visualisation/atlas_data.csv", function (data) {
       var myChart = new dimple.chart(svg, data);
-      myChart.setBounds(30, 20, 400, 400);
+      myChart.setBounds(60, 20, 400, 400);
       var x = myChart.addMeasureAxis("x", "eps_e");
       var y = myChart.addMeasureAxis("y", "lam_e");
       var z = myChart.addMeasureAxis("z", "eps_e");
@@ -78,7 +78,7 @@ files for the
       };
 
       z.overrideMax = 15.0;
-      var myLegend = myChart.addLegend(540, 30, 150, 50, "right");
+      var myLegend = myChart.addLegend(80, 380, 50, 50, "right");
       myLegend.fontSize = "10px";
       myChart.assignColor("core", "#FC411D");  
       myChart.assignColor("intermediate ", "#1936FB");
@@ -92,7 +92,8 @@ files for the
 </div>
   </table>
 
-      
+      dimple.chart.setBounds(x, y, width, height)
+dimple.chart.addLegend(x, y, width, height, horizontalAlign, series)
       </section>
 </div>
 
