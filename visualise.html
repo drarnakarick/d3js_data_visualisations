@@ -59,10 +59,10 @@ files for the
   <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
   <script src="http://dimplejs.org/dist/dimple.v2.1.0.min.js"></script>
   <script type="text/javascript">
-    var svg = dimple.newSvg("#chartContainer", 600, 600);
+    var svg = dimple.newSvg("#chartContainer", 500, 500);
     d3.csv("content/d3js_visualisation/atlas_data.csv", function (data) {
       var myChart = new dimple.chart(svg, data);
-      myChart.setBounds(95, 25, 600, 445);
+      myChart.setBounds(95, 25, 500, 500);
       var x = myChart.addMeasureAxis("x", "eps_e");
       var y = myChart.addMeasureAxis("y", "lam_e");
       var z = myChart.addMeasureAxis("z", "eps_e");
