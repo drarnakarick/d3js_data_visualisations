@@ -65,15 +65,15 @@ files for the
       myChart.setBounds(95, 25, 600, 445);
       var x = myChart.addMeasureAxis("x", "eps_e");
       var y = myChart.addMeasureAxis("y", "lam_e");
-      var z = myChart.addMeasureAxis("z", "LABEL");
-      var s = myChart.addSeries(["NGC","rotator","gamma_dash","Filter","LABEL"], dimple.plot.bubble);
+      var z = myChart.addMeasureAxis("z", "10");
+      var s = myChart.addSeries(["NGC","rotator","Class","gamma_dash","Filter","LABEL"], dimple.plot.bubble);
       s.getTooltipText = function (e) {
                 return [
                     "Galaxy ID: " + e.aggField[0],
                     "Rotating (fast=F, slow=S): " + e.aggField[1],
-                    "Profile type: " + e.aggField[4],
-                    "Gamma (\u03D2\u2032): " + parseFloat(e.aggField[2]).toFixed(2),
-                    "HST filter: " + e.aggField[3]
+                    "Profile type: " + e.aggField[2],
+                    "Gamma (\u03D2\u2032): " + parseFloat(e.aggField[3]).toFixed(2),
+                    "HST filter: " + e.aggField[4]
                 ];
       };
 
