@@ -36,9 +36,24 @@
 library. My plan was to convert some plots from a paper into
 interactive visualisations that would allow me to explore my data a
 qlittle more efficiently. For example take this plot of galaxy from
-the Atlas3D galaxy project - Figure 4. from Krajnovic et al. (2014).
+the Atlas3D galaxy project - Figure 4. from Krajnovic et al. (2013).
+
+<table class="image"  width="80%">
+     <caption align="bottom" style="text-align:right"><small> Figure 4. from (Krajnovic et al. 2013): <em>&lambda;<sub>R</sub> versus the ellipticity
+     &epsilon;for 260 ATLAS<sup>3D</sup> galaxies. Open small symbols are
+     galaxies with no available HST observations, and filled small
+     symbols are galaxies for which the classification was not
+     possible (uncertain). Also on both panels, colours of symbols
+     indicate the class of the nuclear profiles: red <E2><80><93> core (&gamma;<sup>&prime</sup> <
+     0.3), blue <E2><80><93> core-less (&gamma;&prime; > 0.3). The green solid line separates
+     fast from slow rotators (see Paper III).</em></small></caption>
+        <tr><td><img src="content/images/fig4b.jpg" width=100% align="right"></td></tr>
+        </table>
+
+
 No longer would I need to look at the values in a plot and search data
 files for the
+<table class="image"  width="80%">
 
 <div id="chartContainer">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
@@ -71,11 +86,11 @@ files for the
       myChart.draw();
 
       x.titleShape.text("\u03B5"); 
-      y.titleShape.text("\u03BB"+sub("R")); 
+      y.titleShape.text("\u03BB"); 
     }); 
   </script> 
 </div>
-
+  </table>
 
       
       </section>
