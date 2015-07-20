@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Arna Karick</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Arna Karick</h1>
+        <p>I currently work for Swinburne Univeristy of Technology as an e-Research Consultant. I work on projects which address 
+        issues around data-intensive research &ndash; "big data" projects &ndash; data management policy and 
+        implementing procedures and solutions.</p>
+        <h3 class="view"><a href="projects.html">Projects<br><small>My work at Swinburne</small></a></h3><p></p>
+        <h3 class="view"><a href="bio.html">Biography<br><small>Education &amp; experience</small></a></h3><p></p>
+        <h3 class="view"><a href="web.html">Web<br><small>Blogs, Photos, GitHub, Twitter...</small></a></h3><p></p>
+        <h3 class="view"><a href="research.html">Research<br><small>Astronomy Research</small></a></h3><p></p>
+        <h3 class="view"><a href="pubs.html">Publications & Talks<br><small>Journal papers, conference talks &amp; outreach</small></a></h3><p></p>
+        <h3 class="view"><a href="schedule.html">Schedule &amp; Contact<br><small>Events, travel &amp; contact details</small></a></h3><p></p>
+        <h3 class="view"><a href="http://drarnakarick.github.io"><font color="#000000">Home</font><br></a></h3><p></p>
+      </header>
+      
+<div>
+      <section>
+      <h1>Interactive plots of Atlas3D galaxies</h1>
+      <hr> 
+     
+      <p> Recently I started playing with the dimple.js javascript
+library. My plan was to convert some plots from a paper into
+interactive visualisations that would allow me to explore my data a
+qlittle more efficiently. For example take this plot of galaxy from
+the Atlas3D galaxy project - Figure 4. from Krajnovic et al. (2014).
+No longer would I need to look at the values in a plot and search data
+files for the
+
+<div id="chartContainer">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.1.0.min.js"></script>
+  <script type="text/javascript">
+    var svg = dimple.newSvg("#chartContainer", 800, 900);
+    d3.csv("content/d3js_visualisation/atlas_data.csv", function (data) {
+      var myChart = new dimple.chart(svg, data);
+      myChart.setBounds(95, 25, 600, 445);
+      var x = myChart.addMeasureAxis("x", "eps_e");
+      var y = myChart.addMeasureAxis("y", "lam_e");
+      var z = myChart.addMeasureAxis("z", "LABEL");
+      var s = myChart.addSeries(["NGC","rotator","gamma_dash","Filter","LABEL"], dimple.plot.bubble);
+      s.getTooltipText = function (e) {
+                return [
+                    "Galaxy ID: " + e.aggField[0],
+                    "Rotating (fast=F, slow=S): " + e.aggField[1],
+                    "Profile type: " + e.aggField[4],
+                    "Gamma (\u03D2\u2032): " + parseFloat(e.aggField[2]).toFixed(2),
+                    "HST filter: " + e.aggField[3]
+                ];
+      };
+
+      z.overrideMax = 15.0;
+      var myLegend = myChart.addLegend(540, 30, 150, 50, "right");
+      myLegend.fontSize = "10px";
+      myChart.assignColor("core", "#FC411D");  
+      myChart.assignColor("intermediate ", "#1936FB");
+      myChart.assignColor("power-law", "#1936FB");
+      myChart.draw();
+
+      x.titleShape.text("\u03B5"); 
+      y.titleShape.text("\u03BB R"); 
+    }); 
+  </script> 
+</div>
+
+
+      
+      </section>
+</div>
+
+      <footer>
+        <p><small>Hosted on GitHub Pages <a href="https://github.com/drarnakarick/drarnakarick.github.io">[source code]</a><br> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
