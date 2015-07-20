@@ -50,7 +50,7 @@ files for the
       myChart.setBounds(95, 25, 600, 445);
       var x = myChart.addMeasureAxis("x", "eps_e");
       var y = myChart.addMeasureAxis("y", "lam_e");
-      var z = myChart.addMeasureAxis("z", "10");
+      var z = myChart.addMeasureAxis("z", "LABEL");
       var s = myChart.addSeries(["NGC","rotator","gamma_dash","LABEL","Filter"], dimple.plot.bubble);
       s.getTooltipText = function (e) {
                 return [
