@@ -119,111 +119,111 @@ V_hel,D_mpc,lg_Re,eps_e,vsig_e,lam_e,NGC,Class,Filter,arcsec,mu,alpha,beta,gamma
 844,12.9,1.56,0.470,0.546,0.519,NGC7457,power-law,-,0.22,16.33,1.00,1.05,-0.10,0.61,-,0.04,2.50,F,e,power-law
 1728,28.0,1.03,0.137,0.252,0.277,UGC0455,intermediate,-,2.26,17.67,2.20,2.16,0.49,0.49,-,0.22,30.04,F,e,intermediate
 2634,38.7,1.05,0.449,0.472,0.475,UGC0606,power-law,-,2.75,18.96,0.90,1.81,0.80,0.82,-,0.1,18.7,F,e,power-law
-,,,0.587,0.770,0.691,IC0560,,,,,,,,,,,F,,unknown
-,,,0.579,0.896,0.736,IC0598,,,,,,,,,,,F,,unknown
-,,,0.524,0.508,0.495,IC0676,,,,,,,,,,,F,,unknown
-,,,0.714,0.279,0.263,IC0719,,,,,,,,,,,F,,unknown
-,,,0.404,0.677,0.571,IC0782,,,,,,,,,,,F,,unknown
-,,,0.560,0.218,0.250,IC3631,,,,,,,,,,,F,,unknown
-,,,0.679,0.916,0.724,IC1024,,,,,,,,,,,F,,unknown
-,,,0.684,0.686,0.678,NGC2481,,,,,,,,,,,F,,unknown
-,,,0.471,0.874,0.696,NGC2577,,,,,,,,,,,F,,unknown
-,,,0.403,0.455,0.404,NGC2594,,,,,,,,,,,F,,unknown
-,,,0.368,0.185,0.193,NGC2679,,,,,,,,,,,F,,unknown
-,,,0.293,0.582,0.575,NGC2695,,,,,,,,,,,F,,unknown
-,,,0.516,0.569,0.593,NGC2698,,,,,,,,,,,F,,unknown
-,,,0.614,0.783,0.658,NGC2764,,,,,,,,,,,F,,unknown
-,,,0.135,0.320,0.368,NGC2852,,,,,,,,,,,F,,unknown
-,,,0.553,0.744,0.635,NGC3098,,,,,,,,,,,F,,unknown
-,,,0.166,0.372,0.306,NGC3182,,,,,,,,,,,F,,unknown
-,,,0.550,0.617,0.609,NGC3230,,,,,,,,,,,F,,unknown
-,,,0.374,0.514,0.511,NGC3248,,,,,,,,,,,F,,unknown
-,,,0.507,0.676,0.603,NGC3301,,,,,,,,,,,F,,unknown
-,,,0.437,0.764,0.664,NGC3400,,,,,,,,,,,F,,unknown
-,,,0.033,0.109,0.104,NGC3457,,,,,,,,,,,F,,unknown
-,,,0.139,0.323,0.318,NGC3499,,,,,,,,,,,F,,unknown
-,,,0.361,0.080,0.058,NGC3522,,,,,,,,,,,S,,unknown
-,,,0.642,0.741,0.656,NGC3530,,,,,,,,,,,F,,unknown
-,,,0.409,0.415,0.434,NGC3605,,,,,,,,,,,F,,unknown
-,,,0.173,0.285,0.293,NGC3619,,,,,,,,,,,F,,unknown
-,,,0.591,0.728,0.660,NGC3626,,,,,,,,,,,F,,unknown
-,,,0.665,0.639,0.648,NGC3630,,,,,,,,,,,F,,unknown
-,,,0.125,0.331,0.243,NGC3641,,,,,,,,,,,F,,unknown
-,,,0.421,0.711,0.684,NGC3648,,,,,,,,,,,F,,unknown
-,,,0.243,0.462,0.546,NGC3658,,,,,,,,,,,F,,unknown
-,,,0.216,0.463,0.410,NGC3665,,,,,,,,,,,F,,unknown
-,,,0.568,0.491,0.541,NGC3674,,,,,,,,,,,F,,unknown
-,,,0.268,0.269,0.256,NGC3694,,,,,,,,,,,F,,unknown
-,,,0.153,0.119,0.126,NGC3757,,,,,,,,,,,F,,unknown
-,,,0.361,0.164,0.171,NGC3796,,,,,,,,,,,S,,unknown
-,,,0.605,0.743,0.676,NGC3838,,,,,,,,,,,F,,unknown
-,,,0.251,0.439,0.468,NGC3941,,,,,,,,,,,F,,unknown
-,,,0.643,0.380,0.327,NGC0448,,,,,,,,,,,F,,unknown
-,,,0.555,0.818,0.685,NGC4036,,,,,,,,,,,F,,unknown
-,,,0.561,0.575,0.523,NGC4078,,,,,,,,,,,F,,unknown
-,,,0.598,0.895,0.701,NGC4119,,,,,,,,,,,F,,unknown
-,,,0.591,0.589,0.587,NGC4179,,,,,,,,,,,F,,unknown
-,,,0.269,0.105,0.107,NGC4191,,,,,,,,,,,S,,unknown
-,,,0.702,0.516,0.553,NGC4215,,,,,,,,,,,F,,unknown
-,,,0.048,0.204,0.194,NGC4249,,,,,,,,,,,F,,unknown
-,,,0.508,0.637,0.584,NGC4251,,,,,,,,,,,F,,unknown
-,,,0.434,0.622,0.606,NGC4255,,,,,,,,,,,F,,unknown
-,,,0.553,0.231,0.237,NGC4259,,,,,,,,,,,F,,unknown
-,,,0.191,0.541,0.499,NGC4264,,,,,,,,,,,F,,unknown
-,,,0.552,0.491,0.492,NGC4268,,,,,,,,,,,F,,unknown
-,,,0.434,0.639,0.592,NGC4324,,,,,,,,,,,F,,unknown
-,,,0.533,0.571,0.576,NGC4346,,,,,,,,,,,F,,unknown
-,,,0.676,0.438,0.454,NGC4425,,,,,,,,,,,F,,unknown
-,,,0.392,0.486,0.511,NGC4461,,,,,,,,,,,F,,unknown
-,,,0.566,0.794,0.682,NGC4521,,,,,,,,,,,F,,unknown
-,,,0.115,0.194,0.203,NGC4608,,,,,,,,,,,F,,unknown
-,,,0.249,0.321,0.255,NGC4643,,,,,,,,,,,F,,unknown
-,,,0.065,0.292,0.297,NGC4624,,,,,,,,,,,F,,unknown
-,,,0.598,0.713,0.622,NGC4684,,,,,,,,,,,F,,unknown
-,,,0.266,0.149,0.151,NGC4690,,,,,,,,,,,S,,unknown
-,,,0.213,0.537,0.467,NGC4753,,,,,,,,,,,F,,unknown
-,,,0.282,0.192,0.181,NGC4803,,,,,,,,,,,F,,unknown
-,,,0.146,0.213,0.234,NGC0502,,,,,,,,,,,F,,unknown
-,,,0.679,0.451,0.465,NGC0509,,,,,,,,,,,F,,unknown
-,,,0.594,0.588,0.573,NGC5103,,,,,,,,,,,F,,unknown
-,,,0.586,0.637,0.626,NGC5342,,,,,,,,,,,F,,unknown
-,,,0.552,0.689,0.618,NGC5353,,,,,,,,,,,F,,unknown
-,,,0.296,0.288,0.286,NGC5355,,,,,,,,,,,F,,unknown
-,,,0.592,0.675,0.610,NGC5358,,,,,,,,,,,F,,unknown
-,,,0.627,0.920,0.719,NGC5379,,,,,,,,,,,F,,unknown
-,,,0.699,0.786,0.655,NGC0516,,,,,,,,,,,F,,unknown
-,,,0.280,0.404,0.418,NGC0525,,,,,,,,,,,F,,unknown
-,,,0.211,0.437,0.447,NGC5473,,,,,,,,,,,F,,unknown
-,,,0.214,0.159,0.103,NGC5481,,,,,,,,,,,S,,unknown
-,,,0.234,0.178,0.172,NGC5500,,,,,,,,,,,F,,unknown
-,,,0.561,1.095,0.740,NGC5493,,,,,,,,,,,F,,unknown
-,,,0.252,0.479,0.495,NGC5507,,,,,,,,,,,F,,unknown
-,,,0.320,0.676,0.564,NGC5582,,,,,,,,,,,F,,unknown
-,,,0.627,0.443,0.452,NGC5574,,,,,,,,,,,F,,unknown
-,,,0.559,0.816,0.691,NGC5611,,,,,,,,,,,F,,unknown
-,,,0.127,0.171,0.110,NGC5631,,,,,,,,,,,S,,unknown
-,,,0.091,0.253,0.265,NGC5638,,,,,,,,,,,F,,unknown
-,,,0.379,0.486,0.479,NGC5687,,,,,,,,,,,F,,unknown
-,,,0.061,0.242,0.273,NGC5770,,,,,,,,,,,F,,unknown
-,,,0.100,0.385,0.430,NGC5839,,,,,,,,,,,F,,unknown
-,,,0.695,0.630,0.603,NGC5864,,,,,,,,,,,F,,unknown
-,,,0.245,0.433,0.428,NGC5869,,,,,,,,,,,F,,unknown
-,,,0.419,0.418,0.387,NGC6014,,,,,,,,,,,F,,unknown
-,,,0.455,0.441,0.429,NGC6017,,,,,,,,,,,F,,unknown
-,,,0.325,0.656,0.563,NGC6149,,,,,,,,,,,F,,unknown
-,,,0.306,0.134,0.139,NGC0661,,,,,,,,,,,S,,unknown
-,,,0.189,0.413,0.406,NGC0680,,,,,,,,,,,F,,unknown
-,,,0.674,0.616,0.632,NGC6547,,,,,,,,,,,F,,unknown
-,,,0.107,0.315,0.326,NGC6548,,,,,,,,,,,F,,unknown
-,,,0.276,0.184,0.195,NGC0770,,,,,,,,,,,F,,unknown
-,,,0.461,0.488,0.483,NGC6798,,,,,,,,,,,F,,unknown
-,,,0.674,0.490,0.561,NGC7332,,,,,,,,,,,F,,unknown
-,,,0.364,0.106,0.094,NGC7454,,,,,,,,,,,S,,unknown
-,,,0.233,0.686,0.616,NGC7693,,,,,,,,,,,F,,unknown
-,,,0.581,0.293,0.340,NGC7710,,,,,,,,,,,F,,unknown
-,,,0.559,0.828,0.711,NGC1121,,,,,,,,,,,F,,unknown
-,,,0.280,0.153,0.147,NGC1222,,,,,,,,,,,S,,unknown
-,,,0.227,0.521,0.535,NGC1248,,,,,,,,,,,F,,unknown
-,,,0.193,0.775,0.638,NGC1266,,,,,,,,,,,F,,unknown
-,,,0.393,0.172,0.178,NGC1289,,,,,,,,,,,S,,unknown
-,,,0.491,0.669,0.658,NGC1665,,,,,,,,,,,F,,unknown
+,,,0.587,0.770,0.691,IC0560,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.579,0.896,0.736,IC0598,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.524,0.508,0.495,IC0676,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.714,0.279,0.263,IC0719,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.404,0.677,0.571,IC0782,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.560,0.218,0.250,IC3631,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.679,0.916,0.724,IC1024,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.684,0.686,0.678,NGC2481,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.471,0.874,0.696,NGC2577,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.403,0.455,0.404,NGC2594,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.368,0.185,0.193,NGC2679,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.293,0.582,0.575,NGC2695,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.516,0.569,0.593,NGC2698,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.614,0.783,0.658,NGC2764,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.135,0.320,0.368,NGC2852,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.553,0.744,0.635,NGC3098,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.166,0.372,0.306,NGC3182,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.550,0.617,0.609,NGC3230,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.374,0.514,0.511,NGC3248,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.507,0.676,0.603,NGC3301,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.437,0.764,0.664,NGC3400,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.033,0.109,0.104,NGC3457,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.139,0.323,0.318,NGC3499,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.361,0.080,0.058,NGC3522,unknown,no HST image,,,,,,,,,S,,unknown
+,,,0.642,0.741,0.656,NGC3530,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.409,0.415,0.434,NGC3605,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.173,0.285,0.293,NGC3619,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.591,0.728,0.660,NGC3626,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.665,0.639,0.648,NGC3630,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.125,0.331,0.243,NGC3641,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.421,0.711,0.684,NGC3648,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.243,0.462,0.546,NGC3658,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.216,0.463,0.410,NGC3665,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.568,0.491,0.541,NGC3674,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.268,0.269,0.256,NGC3694,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.153,0.119,0.126,NGC3757,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.361,0.164,0.171,NGC3796,unknown,no HST image,,,,,,,,,S,,unknown
+,,,0.605,0.743,0.676,NGC3838,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.251,0.439,0.468,NGC3941,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.643,0.380,0.327,NGC0448,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.555,0.818,0.685,NGC4036,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.561,0.575,0.523,NGC4078,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.598,0.895,0.701,NGC4119,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.591,0.589,0.587,NGC4179,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.269,0.105,0.107,NGC4191,unknown,no HST image,,,,,,,,,S,,unknown
+,,,0.702,0.516,0.553,NGC4215,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.048,0.204,0.194,NGC4249,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.508,0.637,0.584,NGC4251,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.434,0.622,0.606,NGC4255,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.553,0.231,0.237,NGC4259,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.191,0.541,0.499,NGC4264,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.552,0.491,0.492,NGC4268,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.434,0.639,0.592,NGC4324,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.533,0.571,0.576,NGC4346,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.676,0.438,0.454,NGC4425,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.392,0.486,0.511,NGC4461,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.566,0.794,0.682,NGC4521,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.115,0.194,0.203,NGC4608,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.249,0.321,0.255,NGC4643,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.065,0.292,0.297,NGC4624,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.598,0.713,0.622,NGC4684,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.266,0.149,0.151,NGC4690,unknown,no HST image,,,,,,,,,S,,unknown
+,,,0.213,0.537,0.467,NGC4753,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.282,0.192,0.181,NGC4803,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.146,0.213,0.234,NGC0502,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.679,0.451,0.465,NGC0509,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.594,0.588,0.573,NGC5103,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.586,0.637,0.626,NGC5342,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.552,0.689,0.618,NGC5353,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.296,0.288,0.286,NGC5355,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.592,0.675,0.610,NGC5358,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.627,0.920,0.719,NGC5379,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.699,0.786,0.655,NGC0516,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.280,0.404,0.418,NGC0525,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.211,0.437,0.447,NGC5473,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.214,0.159,0.103,NGC5481,unknown,no HST image,,,,,,,,,S,,unknown
+,,,0.234,0.178,0.172,NGC5500,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.561,1.095,0.740,NGC5493,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.252,0.479,0.495,NGC5507,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.320,0.676,0.564,NGC5582,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.627,0.443,0.452,NGC5574,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.559,0.816,0.691,NGC5611,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.127,0.171,0.110,NGC5631,unknown,no HST image,,,,,,,,,S,,unknown
+,,,0.091,0.253,0.265,NGC5638,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.379,0.486,0.479,NGC5687,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.061,0.242,0.273,NGC5770,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.100,0.385,0.430,NGC5839,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.695,0.630,0.603,NGC5864,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.245,0.433,0.428,NGC5869,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.419,0.418,0.387,NGC6014,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.455,0.441,0.429,NGC6017,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.325,0.656,0.563,NGC6149,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.306,0.134,0.139,NGC0661,unknown,no HST image,,,,,,,,,S,,unknown
+,,,0.189,0.413,0.406,NGC0680,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.674,0.616,0.632,NGC6547,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.107,0.315,0.326,NGC6548,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.276,0.184,0.195,NGC0770,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.461,0.488,0.483,NGC6798,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.674,0.490,0.561,NGC7332,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.364,0.106,0.094,NGC7454,unknown,no HST image,,,,,,,,,S,,unknown
+,,,0.233,0.686,0.616,NGC7693,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.581,0.293,0.340,NGC7710,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.559,0.828,0.711,NGC1121,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.280,0.153,0.147,NGC1222,unknown,no HST image,,,,,,,,,S,,unknown
+,,,0.227,0.521,0.535,NGC1248,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.193,0.775,0.638,NGC1266,unknown,no HST image,,,,,,,,,F,,unknown
+,,,0.393,0.172,0.178,NGC1289,unknown,no HST image,,,,,,,,,S,,unknown
+,,,0.491,0.669,0.658,NGC1665,unknown,no HST image,,,,,,,,,F,,unknown
