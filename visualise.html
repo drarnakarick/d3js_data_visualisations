@@ -62,7 +62,7 @@ files for the
     var svg = dimple.newSvg("#chartContainer", 500, 500);
     d3.csv("content/d3js_visualisation/atlas_data.csv", function (data) {
       var myChart = new dimple.chart(svg, data);
-      myChart.setBounds(95, 25, 500, 500);
+      myChart.setBounds(20, 20, 400, 400);
       var x = myChart.addMeasureAxis("x", "eps_e");
       var y = myChart.addMeasureAxis("y", "lam_e");
       var z = myChart.addMeasureAxis("z", "eps_e");
