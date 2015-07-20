@@ -1,4 +1,4 @@
-V_hel,D_mpc,lg_Re,eps_e,vsig_e,lam_e,NGC,LABEL,Filter,arcsec,mu,alpha,beta,gamma,gamma_dash,rms,r_gamma,r_gamma_pc,rotator,group
+V_hel,D_mpc,lg_Re,eps_e,vsig_e,lam_e,NGC,Class,Filter,arcsec,mu,alpha,beta,gamma,gamma_dash,rms,r_gamma,r_gamma_pc,rotator,group
 2315,30.9,1.52,0.192,0.229,0.213,NGC0474,intermediate,F606W,1.83,14.46,1.20,1.97,0.36,0.40,0.02,0.26,38.64,F,e
 2403,23.3,1.64,0.034,0.344,0.325,NGC0524,core,F555W,0.37,17.00,5.00,1.47,0.24,0.24,0.02,0.28,32.12,F,e
 1718,23.4,1.60,0.392,0.288,0.273,NGC0821,power-law,FW,0.48,15.69,0.40,1.71,0.10,0.51,-,0.03,3.42,F,e
