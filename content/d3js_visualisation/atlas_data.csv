@@ -119,5 +119,3 @@ V_hel,D_mpc,lg_Re,eps_e,vsig_e,lam_e,NGC,Class,Filter,arcsec,mu,alpha,beta,gamma
 844,12.9,1.56,0.470,0.546,0.519,NGC7457,power-law,-,0.22,16.33,1.00,1.05,-0.10,0.61,-,0.04,2.50,F,e,power-law
 1728,28.0,1.03,0.137,0.252,0.277,UGC0455,intermediate,-,2.26,17.67,2.20,2.16,0.49,0.49,-,0.22,30.04,F,e,intermediate
 2634,38.7,1.05,0.449,0.472,0.475,UGC0606,power-law,-,2.75,18.96,0.90,1.81,0.80,0.82,-,0.1,18.7,F,e,power-law
-    
-     
