@@ -131,6 +131,7 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  background: #336699;
 }
 
 header ul {
@@ -259,7 +260,7 @@ footer {
   
   header {
     padding-right:320px;
-    background: #336699;
+ 
   }
   
   section {
