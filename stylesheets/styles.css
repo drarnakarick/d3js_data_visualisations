@@ -7,6 +7,13 @@ body {
   font-weight:300;
 }
 
+left {
+  width:270px;
+  float:left;
+  margin:0 auto;
+  background-color:yellow;
+
+}
 h1, h2, h3, h4, h5, h6 {
   color:#565656;
   margin:0 0 8px;
@@ -75,7 +82,7 @@ a:hover small {
 .wrapper {
   width:860px;
   margin:0 auto;
- background-color: yellow;
+
 }
 
 blockquote {
