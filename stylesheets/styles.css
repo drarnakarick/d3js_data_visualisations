@@ -214,6 +214,11 @@ header ul a strong {
   display:block;
   color:#222;
 }
+lef {
+  width:500px;
+  float:right;
+  padding-bottom:50px;
+}
 
 section {
   width:500px;
@@ -254,6 +259,7 @@ footer {
   
   header {
     padding-right:320px;
+    background: #336699;
   }
   
   section {
