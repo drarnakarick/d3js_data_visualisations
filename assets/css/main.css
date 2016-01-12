@@ -187,7 +187,7 @@
 	/* Set your background with this */
 
 	/*	background: #348cb2 url("images/DSC_3739.jpg") bottom left; */
-		background: #1f546a url("images/DSC_3739.jpg") bottom left;
+		background: #1f546a url("images/DSC_3739_original.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -261,7 +261,7 @@
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		background-size: 750px auto;
 		width: 6750px;
 	}
 
