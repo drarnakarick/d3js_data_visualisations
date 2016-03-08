@@ -38,14 +38,27 @@
       text.axis-worktime {
         fill: #000;
       }
+
+        .d3-tip {
+        line-height: 1;
+        font-size: 9pt;
+        font-family: "Helvetica", Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        border-radius: 2px;
+    }
+
     </style>
     <script src="http://d3js.org/d3.v3.js"></script>
+    <script src="js/d3.tip.v0.6.7.js"></script>
   </head>
   <body>
 
         <h1>Research Profiles of Insight Data Fellows</h1>
 <p>This <i>heat map</i> matrix diagram shows the <i>research profiles</i> of fellows, represented by their previous <strong>research area</strong> and <strong>university</strong> prior to applying for an Insight Fellowship.
-            The different colours represent the frequency of fellows having the same research area/university combination. Typically the darker the colour the greater frequency. </p> 
+            The different colours represent the frequency of fellows having the same research area/university combination. Typically the darker the colour the greater frequency. </p>
 <p>In this plot colours represent discrete numbers: <font color="#7fcdbb">one fellow</font>, <font color="#1d91c0">two fellows</font>, <font color="#225ea8">three fellows</font>, and <font color="#C0000">four fellows</font> (the maximum so far). </p>
 <p>The banding pattern highlights the most common research areas  &ndash; <i> Astronomy &amp; Astrophysics, Physics, Mathematics, Neuroscience</i> &ndash; and universities – <i>Stanford University &amp; University of California (Berkeley)</i>.</p>
 
@@ -78,6 +91,15 @@
           .attr("height", height + margin.top + margin.bottom)
           .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+     // defining the tooltip
+      var tip = d3.tip()
+         .attr('class', 'd3-tip')
+         .offset([-10, 0])
+         .html(function(d) {
+           return "<strong>No. of fellows:</strong> <span style='color:red'>" + d.value + "</span>";
+      })
+         svg.call(tip);
 
       var dayLabels = svg.selectAll(".dayLabel")
           .data(days)
@@ -131,7 +153,9 @@
               .attr("class", "hour bordered")
               .attr("width", gridSize)
               .attr("height", gridSize)
-              .style("fill", colors[0]);
+              .style("fill", colors[0])
+              .on('mouseover', tip.show)
+              .on('mouseout', tip.hide);
 
           cards.transition().duration(1000)
               .style("fill", function(d) { return colorScale(d.value); });
